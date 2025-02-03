@@ -2,7 +2,7 @@
 const app = express();
 const cafes = require("./cafes.json");
 
-app.listen(3000, console.log("SERVER ON en puerto 3000"));
+app.listen(3000, console.log("SERVER ON en puerto 3000")); //o PORT 4000
 
 app.use(express.json());
 
